@@ -59,6 +59,6 @@ popd
 %{_bindir}/e3pi
 %{_bindir}/e3vi
 %{_bindir}/e3ws 
-%{_mandir}/man1/e3*.bz2
+%{_mandir}/man1/e3*
 
 
