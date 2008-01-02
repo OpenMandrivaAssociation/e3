@@ -12,6 +12,7 @@ URL:		http://www.sax.de/~adlibit
 Source0:	http://www.sax.de/~adlibit/%{name}-%{version}.tar.bz2
 Provides:	editor
 BuildRequires:	nasm
+Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 E3 is teeny tiny editor that doesn't depend on any libs.
