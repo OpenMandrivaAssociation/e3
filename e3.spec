@@ -1,6 +1,6 @@
 %define name	e3
 %define version	2.7.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	E3 is a tiny editor, well suited for rescue disks
 Name:		%{name}
