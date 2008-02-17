@@ -13,7 +13,7 @@ Source0:	http://mitglied.lycos.de/albkleine/%{name}-%{version}.tar.gz
 Provides:	editor
 BuildRequires:	nasm
 Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
-
+ExclusiveArch:  %ix86
 %description
 E3 is teeny tiny editor that doesn't depend on any libs.
 e3 uses subset of wordstar|emacs|pico|vi|nedit commands.
