@@ -1,5 +1,5 @@
 %define name	e3
-%define version	2.7.0
+%define version	2.7.1
 %define release %mkrel 1
 
 Summary:	E3 is a tiny editor, well suited for rescue disks
@@ -8,8 +8,8 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		Editors 
-URL:		http://www.sax.de/~adlibit
-Source0:	http://www.sax.de/~adlibit/%{name}-%{version}.tar.bz2
+URL:	    http://mitglied.lycos.de/albkleine/
+Source0:	http://mitglied.lycos.de/albkleine/%{name}-%{version}.tar.gz
 Provides:	editor
 BuildRequires:	nasm
 Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
@@ -17,7 +17,6 @@ Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
 %description
 E3 is teeny tiny editor that doesn't depend on any libs.
 e3 uses subset of wordstar|emacs|pico|vi|nedit commands.
-Author: Albrecht Kleine <kleine3_at_ak_sax_de>
 
 %prep
 
