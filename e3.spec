@@ -2,7 +2,7 @@
 %define version	2.7.1
 %define release %mkrel 2
 
-Summary:	E3 is a tiny editor, well suited for rescue disks
+Summary:	Tiny editor, well suited for rescue disks
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
