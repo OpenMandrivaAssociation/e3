@@ -1,6 +1,6 @@
 %define name	e3
 %define version	2.7.1
-%define release %mkrel 3
+%define release %mkrel 5
 
 Summary:	Tiny editor, well suited for rescue disks
 Name:		%{name}
