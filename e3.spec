@@ -1,14 +1,14 @@
 %define name	e3
 %define version	2.7.1
-%define release %mkrel 7
+%define release %mkrel 8
 
 Summary:	Tiny editor, well suited for rescue disks
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-License:	GPL
+License:	GPLv2+
 Group:		Editors 
-URL:	    http://mitglied.lycos.de/albkleine/
+URL:	    	http://mitglied.lycos.de/albkleine/
 Source0:	http://mitglied.lycos.de/albkleine/%{name}-%{version}.tar.gz
 Provides:	editor
 BuildRequires:	nasm
