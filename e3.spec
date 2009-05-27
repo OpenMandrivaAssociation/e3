@@ -1,6 +1,6 @@
 %define name	e3
 %define version	2.7.1
-%define release %mkrel 8
+%define release %mkrel 9
 
 Summary:	Tiny editor, well suited for rescue disks
 Name:		%{name}
@@ -13,7 +13,7 @@ Source0:	http://mitglied.lycos.de/albkleine/%{name}-%{version}.tar.gz
 Provides:	editor
 BuildRequires:	nasm
 Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
-ExclusiveArch:  %ix86
+#ExclusiveArch:  %ix86
 %description
 E3 is teeny tiny editor that doesn't depend on any libs.
 e3 uses subset of wordstar|emacs|pico|vi|nedit commands.
@@ -24,8 +24,11 @@ e3 uses subset of wordstar|emacs|pico|vi|nedit commands.
 
 %build
 
-# this was the only way i was able to compile it...
-%make debug
+%ifarch x86_64
+%make nasm64
+%else
+%make nasm32
+%endif
 
 # run the tests
 #make test
