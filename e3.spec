@@ -4,7 +4,7 @@
 Summary:	Tiny editor, well suited for rescue disks
 Name:		e3
 Version:	2.8
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Editors
 Url:		https://sites.google.com/site/e3editor/
