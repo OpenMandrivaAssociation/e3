@@ -13,6 +13,7 @@ Source0:	https://sites.google.com/site/e3editor/Home/%{name}-%{version}.tgz
 # bit linux so that stack can be marked as non-executable on it too
 # http://www.gentoo.org/proj/en/hardened/gnu-stack.xml
 Patch0:		e3-gnu-stack.patch
+BuildRequires:	make
 BuildRequires:	nasm
 ExclusiveArch:	%{ix86} x86_64
 
